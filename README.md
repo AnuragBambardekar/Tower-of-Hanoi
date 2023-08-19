@@ -1,6 +1,14 @@
 # The Tower of Hanoi
 
-The Tower of Hanoi is a classic puzzle or mathematical problem that involves moving a stack of disks from one peg or rod to another, subject to certain constraints. The puzzle consists of three rods and a number of disks of different sizes, which can slide onto any rod. The puzzle is usually represented as follows:
+# Origin
+The puzzle was invented by the French mathematician Édouard Lucas in 1883. Numerous myths regarding the ancient and mystical nature of the puzzle popped up almost immediately, including a myth about an Indian temple in Kashi Vishwanath containing a large room with three time-worn posts in it, surrounded by 64 golden disks. But, this story of Indian Kashi Vishwanath temple was spread tongue-in-cheek by a friend of Édouard Lucas.
+
+If the legend were true, and if the priests were able to move disks at a rate of one per second, using the smallest number of moves, it would take them 264 − 1 seconds or roughly 585 billion years to finish, which is about 42 times the estimated current age of the universe.
+
+There are many variations on this legend. For instance, in some tellings, the temple is a monastery, and the priests are monks. The temple or monastery may be in various locales including Hanoi, and may be associated with any religion. In some versions, other elements are introduced, such as the fact that the tower was created at the beginning of the world, or that the priests or monks may make only one move per day. ~ [Wikipedia]
+
+# About the Problem
+The **Tower of Hanoi** (also called The problem of **Benares Temple** or **Tower of Brahma** or **Lucas' Tower** and sometimes pluralized as Towers, or simply pyramid puzzle) is a classic puzzle or mathematical problem that involves moving a stack of disks from one peg or rod to another, subject to certain constraints. The puzzle consists of three rods and a number of disks of different sizes, which can slide onto any rod. The puzzle is usually represented as follows:
 
 There are three **rods** (A, B, and C). <br>
 There are n **disks** of different sizes, initially stacked in decreasing order of size on one rod (e.g., rod A).
@@ -8,6 +16,7 @@ The task is to move all the disks from the starting rod (e.g., rod A) to the des
 **a. Only one disk can be moved at a time.** <br>
 **b. A disk can only be placed on top of a larger disk or an empty rod.** <br>
 
+# Solution
 The puzzle is usually solved recursively. Here's a general algorithm for solving the Towers of Hanoi with n disks: <br>
 
 - Move the top n-1 disks from the source rod (A) to the auxiliary rod (B) using the destination rod (C) as an auxiliary. <br>
@@ -26,3 +35,8 @@ Look! I made a tower using Origami-boxes.
 
 Sierpinski Triangle for 3 Discs. ~ [Source: Numberphile]
 ![Sierpinski Triangle](Picture2.png)
+
+# Resources:
+
+- https://www.youtube.com/watch?v=PGuRmqpr6Oo - The Key to Tower of Hanoi - Numberphile
+- https://www.youtube.com/watch?v=8lhxIOAfDss - Recursion Superpower - Numberphile
